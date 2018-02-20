@@ -51,7 +51,7 @@ object ListOps extends App{
   println(fruits.flatMap(_.toLowerCase()))
   println(fruits.map(_.toUpperCase))
 
-  println("------------distinct elements------")
+  println("------------>>>>distinct elements<<<------")
   println(List('b','a','n','a','n','a').distinct)
 
   println("------------removing redundant elements------")
